@@ -18,6 +18,11 @@ Either absolute or relative paths will work.
 
 ## Installation
 
-For now, download or clone this repo and run `cargo build`. You'll then need to add the binary to your path or execute it specifying
+2 possibilities:
+
+1. Download or clone this repo and run `cargo build`. You'll then need to add the binary to your path or execute it specifying
 the full path.
+2. Download or clone this repo, `cd` into the folder and run `cargo install --path .`. The upside here is you don't need to modify
+anything in your $PATH, assuming you have the folder where cargo installs binaries inside it, which should be the case. If not,
+maybe do so now?
 
